@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.thezebra.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Oct 12 03:46:37 2026 GMT
+  hsts: null
+domains:
+- domain: thezebra.com
+  dnssec: true
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
